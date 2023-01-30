@@ -21,4 +21,7 @@
   .stagger {
     background: variable.$stagger-bg;
   }
+  .random {
+    background: variable.$random-bg;
+  }
 </style>
