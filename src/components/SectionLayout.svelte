@@ -24,4 +24,7 @@
   .random {
     background: variable.$random-bg;
   }
+  .radian {
+    background: variable.$radian-bg;
+  }
 </style>
