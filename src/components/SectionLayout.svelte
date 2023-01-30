@@ -9,7 +9,7 @@
 </section>
 
 <style lang="scss">
-  $stagger: #ffffe8;
+  @use "../assets/variable";
   section {
     padding: 70px 0;
     & > div {
@@ -19,6 +19,6 @@
     }
   }
   .stagger {
-    background: $stagger;
+    background: variable.$stagger-bg;
   }
 </style>

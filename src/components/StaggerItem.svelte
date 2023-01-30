@@ -38,9 +38,7 @@
 </SectionLayout>
 
 <style lang="scss">
-  $color01: #ffd4d4;
-  $color02: #cde990;
-  $color03: #aacb73;
+  @use "../assets/variable";
   ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, 100px);
@@ -52,13 +50,13 @@
       justify-content: center;
       align-items: center;
       &:nth-child(3n + 1) {
-        background: $color01;
+        background: variable.$stagger-color01;
       }
       &:nth-child(3n + 2) {
-        background: $color02;
+        background: variable.$stagger-color02;
       }
       &:nth-child(3n) {
-        background: $color03;
+        background: variable.$stagger-color03;
       }
     }
   }
