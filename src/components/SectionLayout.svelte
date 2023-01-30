@@ -27,4 +27,7 @@
   .radian {
     background: variable.$radian-bg;
   }
+  .scroll {
+    background: variable.$scroll-bg;
+  }
 </style>
